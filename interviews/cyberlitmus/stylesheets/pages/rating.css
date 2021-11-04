@@ -14,6 +14,15 @@
   margin: 0 10px;
 }
 
+.fa-star:hover {
+  color:#d5d5ed;
+  cursor: pointer;
+}
+
+.yellow-star {
+  color: #ffe800;
+}
+
 /* ===== Media Queries ===== */
 
 @media screen and (max-width: 769px){

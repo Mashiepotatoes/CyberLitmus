@@ -18,6 +18,10 @@
   font-size: 12px;
 }
 
+.btn:hover {
+  transform: scale(1.05);
+}
+
 
 /* ===== Media Queries ===== */
 
