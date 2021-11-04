@@ -1,0 +1,92 @@
+.body-container {
+  width: 1700px;
+  margin: 0 auto;
+}
+
+.msg-success {
+  text-align: center;
+  color: var(--red);
+  margin: 30px 0;
+}
+
+.msg-user {
+  line-height: 2;
+  margin: 30px 0;
+}
+
+/* ===== Delivery Details Box ===== */
+
+.details-container {
+  width: 100%;
+  height: auto;
+}
+
+.details-header {
+  background-color: var(--red);
+  color: white;
+  padding: 15px 15px;
+}
+
+.details-info {
+  display: flex;
+  width: 100%;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+.details-box {
+  background-color: var(--lilac);
+  padding: 15px;
+  width: 50%;
+}
+
+#details-box-middle {
+  margin: 30px 0;
+}
+
+
+/* ===== Media Queries ===== */
+
+@media screen and (max-width: 769px){
+  .body-container {
+    width: 100vw;
+    height: auto;
+  }
+
+  .msg-user{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .body-container {
+    width: 100vw;
+    height: auto;
+  }
+
+  .msg-user{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .body-container {
+    width: 100vw;
+    height: auto;
+  }
+
+  .msg-user{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1800px){
+  .body-container {
+    width: 100vw;
+    height: auto;
+  }
+
+  .msg-user{
+    padding-left: 15px;
+  }
+}

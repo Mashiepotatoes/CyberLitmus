@@ -1,0 +1,29 @@
+.no-delivery-msg {
+  text-align: center;
+  color: var(--red);
+  margin-bottom: 30px;
+}
+
+.btn {
+  text-align: center;
+  margin: 30px 0 100px;
+}
+
+.btn > a {
+  padding: 15px;
+  background-color: var(--red);
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+
+/* ===== Media Queries ===== */
+
+@media screen and (max-width: 768px){
+  .no-delivery-msg {
+    margin: 0 30px;
+  }
+
+}

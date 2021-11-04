@@ -1,0 +1,23 @@
+.rating-msg {
+  text-align: center;
+  color: var(--red);
+}
+
+.rating-stars {
+  text-align: center;
+  padding: 30px 30px 60px 30px;
+}
+
+.fa-star {
+  color: var(--lilac);
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+/* ===== Media Queries ===== */
+
+@media screen and (max-width: 769px){
+  .rating-msg {
+    margin: 0 30px;
+  }
+}

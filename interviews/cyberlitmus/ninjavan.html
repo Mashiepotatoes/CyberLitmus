@@ -4,96 +4,116 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="ninjavan.css" rel="stylesheet">
+  <link href="stylesheets/index.css" rel="stylesheet">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/4775c39bd5.js" crossorigin="anonymous"></script>
+  <!-- Montserrat -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
   <title>Ninjavan Confirmation</title>
 </head>
 
 <body>
   <!-- Navbar and Logo -->
-  <div class="nav__logo"><img src="assets/ninjavan-logo.png" alt="Ninjavan Logo"></div>
-  <div>
-    <a href="#">
-      <div class="nav__option">
-        <i class="fas fa-search-location"></i>
-        <h3>TRACK PARCEL</h3>
-      </div>
-    </a>
-    <a href="#">
-      <div class="nav__option">
-        <i class="fas fa-map-marker-alt"></i>
-        <h3>DROP-OFF POINT</h3>
-      </div>
-    </a>
-    <a href="#">
-      <div class="nav__option">
-        <i class="far fa-question-circle"></i>
-        <h3>OUR SERVICES</h3>
-      </div>
-    </a>
+  <div class="nav">
+    <div class="nav__logo">
+      <img src="assets/ninjavan-logo.png" alt="Ninjavan Logo">
+    </div>
+    <div class="nav__options">
+      <a href="#">
+        <div class="nav__option">
+          <i class="fas fa-search-location nav-icon"></i>
+          <h4>TRACK PARCEL</h4>
+        </div>
+      </a>
+      <a href="#">
+        <div class="nav__option" id="middle-div">
+          <i class="fas fa-map-marker-alt nav-icon"></i>
+          <h4>DROP-OFF POINT</h4>
+        </div>
+      </a>
+      <a href="#">
+        <div class="nav__option">
+          <i class="far fa-question-circle nav-icon"></i>
+          <h4>OUR SERVICES</h4>
+        </div>
+      </a>
+    </div>
   </div>
+  
+  <div class="body-container">
+    <!-- Banner -->
+    <div class="banner">
+      <img src="assets/ninjavan-img.png" alt="Email Banner">
+    </div>
 
-  <!-- Banner -->
-  <img src="assets/ninjavan-img.png" alt="Email Banner" class="banner">
-
-  <!-- Email Body -->
-  <div class="msg-success"><h2>Your parcel is delivered successfully!</h2></div>
-  <div class="msg-user">
-    <p>
-      Hi Gerald Chong,<br>
-      Yay, your parcel has been successfully delievered! <strong>Your parcel tracking ID is SHPM2857353140</strong>
-    </p>
-  </div>
-  <div class="details-container">
-    <div class="details-header"><p><strong>Delivery Details</strong></p></div>
-    <div class="details-info">
-      <div class="details-box-left">
-        <div class="details-box-inner">
-          <p>
-            <strong>Recipient Address:</strong><br>
-            Fusionopolis, 10 Fusionopolis Drive, #01-02 Singapore
-          </p>
+    <!-- Email Body -->
+    <div class="msg-success">
+      <h2>Your parcel is delivered successfully!</h2>
+    </div>
+    <div class="msg-user">
+      <p>
+        Hi Gerald Chong,<br>
+        Yay, your parcel has been successfully delievered! <strong>Your parcel tracking ID is SHPM2857353140</strong>
+      </p>
+    </div>
+    <div class="details-container">
+      <div class="details-header"><p><strong>Delivery Details</strong></p></div>
+      <div class="details-info">
+        <div class="details-box">
+          <div class="details-box-inner">
+            <p>
+              <strong>Recipient Address:</strong><br>
+              Fusionopolis, 10 Fusionopolis Drive, #01-02 Singapore
+            </p>
+          </div>
+          <div class="details-box-inner" id="details-box-middle">
+            <p>
+              <strong>Delivery Date and Time:</strong><br>
+              27 October 2021, 15:47
+            </p>
+          </div>
+          <div class="details-box-inner">
+            <p>
+              <strong>Contactless Delivery:</strong><br>
+              Yes
+            </p>
+          </div>
         </div>
-        <div class="details-box-inner">
-          <p>
-            <strong>Delivery Date and Time:</strong><br>
-            27 October 2021, 15:47
-          </p>
-        </div>
-        <div class="details-box-inner">
-          <p>
-            <strong>Contactless Delivery:</strong><br>
-            Yes
-          </p>
-        </div>
-      </div>
-      <div class="details-box-right">
-        <div class="details-box-inner">
-          <p>
-            <strong>Cash-on-Delivery:</strong><br>
-            Not Applicable
-          </p>
+        <div class="details-box">
+          <div class="details-box-inner">
+            <p>
+              <strong>Cash-on-Delivery:</strong><br>
+              Not Applicable
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Rating -->
-  <div class="rating-message"><h3>How would you rate the Ninja who delivered this parcel?</h3></div>
-  <div class="rating-stars">
-    <div>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
+    <!-- Rating -->
+    <div class="rating-msg">
+      <h4>How would you rate the Ninja who delivered this parcel?</h4>
+    </div>
+    <div class="rating-stars">
+      <div>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+    </div>
+
+    <!-- Delivery Issues-->
+    <div class="delivery-issues">
+      <div class="no-delivery-msg">
+        <h4>Was your parcel not delivered?</h4>
+      </div>
+      <div class="btn">
+        <a href="#"><strong>Report Missing Parcel</strong></a>
+      </div>
     </div>
   </div>
-
-  <!-- Delivery Issues-->
-  <div class="no-delivery-msg"><h3>Was your parcel not delivered?</h3></div>
-  <div>
-    <a href="#" class="btn">Report Missing Parcel</a>
-  </div>
-
 </body>
 </html>

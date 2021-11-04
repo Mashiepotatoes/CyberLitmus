@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+  --red: #e70029;
+  --lilac: #ebebf2;
+}
+
+p {
+  font-size: 12px
+}
