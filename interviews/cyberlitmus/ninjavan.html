@@ -7,7 +7,93 @@
   <link href="ninjavan.css" rel="stylesheet">
   <title>Ninjavan Confirmation</title>
 </head>
+
 <body>
-  
+  <!-- Navbar and Logo -->
+  <div class="nav__logo"><img src="assets/ninjavan-logo.png" alt="Ninjavan Logo"></div>
+  <div>
+    <a href="#">
+      <div class="nav__option">
+        <i class="fas fa-search-location"></i>
+        <h3>TRACK PARCEL</h3>
+      </div>
+    </a>
+    <a href="#">
+      <div class="nav__option">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>DROP-OFF POINT</h3>
+      </div>
+    </a>
+    <a href="#">
+      <div class="nav__option">
+        <i class="far fa-question-circle"></i>
+        <h3>OUR SERVICES</h3>
+      </div>
+    </a>
+  </div>
+
+  <!-- Banner -->
+  <img src="assets/ninjavan-img.png" alt="Email Banner" class="banner">
+
+  <!-- Email Body -->
+  <div class="msg-success"><h2>Your parcel is delivered successfully!</h2></div>
+  <div class="msg-user">
+    <p>
+      Hi Gerald Chong,<br>
+      Yay, your parcel has been successfully delievered! <strong>Your parcel tracking ID is SHPM2857353140</strong>
+    </p>
+  </div>
+  <div class="details-container">
+    <div class="details-header"><p><strong>Delivery Details</strong></p></div>
+    <div class="details-info">
+      <div class="details-box-left">
+        <div class="details-box-inner">
+          <p>
+            <strong>Recipient Address:</strong><br>
+            Fusionopolis, 10 Fusionopolis Drive, #01-02 Singapore
+          </p>
+        </div>
+        <div class="details-box-inner">
+          <p>
+            <strong>Delivery Date and Time:</strong><br>
+            27 October 2021, 15:47
+          </p>
+        </div>
+        <div class="details-box-inner">
+          <p>
+            <strong>Contactless Delivery:</strong><br>
+            Yes
+          </p>
+        </div>
+      </div>
+      <div class="details-box-right">
+        <div class="details-box-inner">
+          <p>
+            <strong>Cash-on-Delivery:</strong><br>
+            Not Applicable
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rating -->
+  <div class="rating-message"><h3>How would you rate the Ninja who delivered this parcel?</h3></div>
+  <div class="rating-stars">
+    <div>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </div>
+  </div>
+
+  <!-- Delivery Issues-->
+  <div class="no-delivery-msg"><h3>Was your parcel not delivered?</h3></div>
+  <div>
+    <a href="#" class="btn">Report Missing Parcel</a>
+  </div>
+
 </body>
 </html>
