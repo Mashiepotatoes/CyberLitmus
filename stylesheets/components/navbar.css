@@ -36,3 +36,11 @@
 .nav-icon {
   color: var(--red);
 }
+
+/* ===== Media Queries ===== */
+
+@media screen and (max-width: 769px){
+  .nav__option {
+    font-size: 11px;
+  }
+}

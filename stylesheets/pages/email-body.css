@@ -1,5 +1,5 @@
 .body-container {
-  width: 1700px;
+  width: 90vw;
   margin: 0 auto;
 }
 
@@ -17,8 +17,9 @@
 /* ===== Delivery Details Box ===== */
 
 .details-container {
-  width: 100%;
+  width: 100vw;
   height: auto;
+  margin: 0 auto;
 }
 
 .details-header {
@@ -53,8 +54,12 @@
     height: auto;
   }
 
-  .msg-user{
+  .msg-user {
     text-align: center;
+  }
+
+  .msg-success {
+    font-size: 12px;
   }
 }
 
@@ -67,26 +72,15 @@
   .msg-user{
     text-align: center;
   }
+
+  .details-container {
+    width: 90vw;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 1200px){
-  .body-container {
-    width: 100vw;
-    height: auto;
-  }
-
   .msg-user{
     text-align: center;
-  }
-}
-
-@media screen and (max-width: 1800px){
-  .body-container {
-    width: 100vw;
-    height: auto;
-  }
-
-  .msg-user{
-    padding-left: 15px;
   }
 }
